@@ -2,4 +2,5 @@ pandas
 seaborn
 numpy
 torch
+scikit-learn
 -e .
