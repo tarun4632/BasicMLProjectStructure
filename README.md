@@ -3,6 +3,7 @@
 [![License: MIT](https://img.shields.io/badge/License-MIT-yellow.svg)](https://opensource.org/licenses/MIT)
 
 This template provides a structured foundation for machine learning projects, designed to promote best practices in code organization and project management.
+I have also given some example codes for any project just replace them with your codes 
 
 ## 🚀 Quick Start
 
@@ -38,12 +39,17 @@ This template provides a structured foundation for machine learning projects, de
 │   ├── exception.py
 │   ├── logger.py
 │   └── utils.py
+├── templates
+│   ├── home.html
+│   ├── index.html
 ├── Notebooks
 │   ├── EDA.ipynb
 ├── .gitignore
 ├── README.md
 ├── requirements.txt
 └── setup.py
+└── app.py
+
 ```
 
 
@@ -64,12 +70,18 @@ This template provides a structured foundation for machine learning projects, de
 
 ### `Notebooks`
 - **`EDA.ipynb`**: Jupyter notebook for Exploratory Data Analysis. Use this to perform initial data exploration, visualize patterns, and develop insights before implementing the full pipeline.
-  
+
+### `templates`
+- **`home.html`**: The main page where the model will run
+- **`index.html`**: optional ... coulf be the main page where the code will run or could be the home page
+
+
 ### Utility Files
 
 - **`exception.py`**: Custom exception handling.
 - **`logger.py`**: Logging configuration and utilities.
 - **`utils.py`**: Shared utility functions.
+- **`aop.py`**: Flask app
 
 ## 🛠 Usage
 
