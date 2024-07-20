@@ -1,1 +1,1 @@
-# BasicMLProjectStructure
+# ML Project Structure
