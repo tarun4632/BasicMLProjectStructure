@@ -38,11 +38,16 @@ This template provides a structured foundation for machine learning projects, de
 │   ├── exception.py
 │   ├── logger.py
 │   └── utils.py
+├── Notebooks
+│   ├── EDA.ipynb
 ├── .gitignore
 ├── README.md
 ├── requirements.txt
 └── setup.py
 ```
+
+
+
 
 ## 🧩 Components
 
@@ -57,6 +62,9 @@ This template provides a structured foundation for machine learning projects, de
 - **`predict_pipeline.py`**: Implements the prediction pipeline for making inferences.
 - **`train_pipeline.py`**: Orchestrates the entire training process.
 
+### `Notebooks`
+- **`EDA.ipynb`**: Jupyter notebook for Exploratory Data Analysis. Use this to perform initial data exploration, visualize patterns, and develop insights before implementing the full pipeline.
+  
 ### Utility Files
 
 - **`exception.py`**: Custom exception handling.
@@ -93,12 +101,6 @@ This template provides a structured foundation for machine learning projects, de
 ## 🤝 Contributing
 
 Contributions are welcome! Please feel free to submit a Pull Request.
-
-1. Fork the repository
-2. Create your feature branch (`git checkout -b feature/AmazingFeature`)
-3. Commit your changes (`git commit -m 'Add some AmazingFeature'`)
-4. Push to the branch (`git push origin feature/AmazingFeature`)
-5. Open a Pull Request
 
 ## 📄 License
 
